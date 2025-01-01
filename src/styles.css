@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+
+.checkboxes {
+  display: flex;
+}
+
+.outer-parent {
+  position: relative;
+  width: 90%;
+  height: 90%;
+}
+
+.calender-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.time-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time {
+  width: 10%;
+}
+
+.hr {
+  width: 90%;
+}
+
+.meetings-container {
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  /* background-color: purple; */
+  top: 0;
+  right: 0;
+}
+
+.meetinginidv {
+  display: flex;
+  background-color: lightblue;
+  border: 1px solid #ccc;
+}
